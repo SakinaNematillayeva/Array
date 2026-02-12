@@ -1,6 +1,6 @@
-var word = prompt("Enter word");
+var word = prompt("Enter word").trim();
 
-var word1 = word[0];
+var word1 = word[0].trim();
 var next = word.slice(1);
 
 if (word1 === word1.toUpperCase()) {
